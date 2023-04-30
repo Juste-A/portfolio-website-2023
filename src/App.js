@@ -1,9 +1,11 @@
+import React from 'react'
 import './App.css'
+import Projects from './components/Projects'
 
 function App () {
   return (
     <>
-      <h1>Hello</h1>
+      <Projects />
     </>
   )
 }
