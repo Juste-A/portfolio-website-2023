@@ -4,7 +4,12 @@ module.exports = {
     './src/**/*.{js,jsx,ts,tsx}'
   ] /* inside conten we add paths to folders we will use */,
   theme: {
-    extend: {}
+    extend: {
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+        playfair: ['Playfair-display', 'serif']
+      }
+    }
   },
   plugins: []
 }

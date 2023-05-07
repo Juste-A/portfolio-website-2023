@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 function Navigation () {
   return (
     <>
-      <nav>
+      <nav className='absolute top-[8%] right-16 uppercase'>
         <NavLink to='/'>Home</NavLink>
         <NavLink to='/about'>About</NavLink>
         <NavLink to='/skills'>Skills</NavLink>
