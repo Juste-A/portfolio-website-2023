@@ -1,11 +1,11 @@
 import React from 'react'
-import Navigation from '../components/Navigation'
+import Header from '../components/Header'
 import Hero from '../components/Hero'
 
 function Home () {
   return (
     <>
-      <Navigation />
+      <Header />
       <Hero />
     </>
   )

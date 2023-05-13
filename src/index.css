@@ -4,14 +4,14 @@
 
 @font-face {
   font-family: "Playfair Display";
-  src: local("Playfair Display"),
+  src: local("Playfair-display"),
     url("./fonts/Playfair-display/PlayfairDisplay-Bold.ttf") format("truetype");
-  font-weight: bold;
+  font-weight: 700;
 }
 
 @font-face {
   font-family: "Playfair Display";
-  src: local("Playfair Display"),
+  src: local("Playfair-display"),
     url("./fonts/Playfair-display/PlayfairDisplay-Regular.ttf") format("truetype");
   font-weight: 400;
 }
