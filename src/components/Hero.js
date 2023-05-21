@@ -1,13 +1,24 @@
 import React from 'react'
+import arrow from '../assets/arrow.svg'
 
 function Hero () {
   return (
     <>
       <section className='hero-container h-full w-full bg-gradient-to-r from-[rgb(255,220,235)] from-30% via-[rgb(255,215,194), rgb(255,226,144)] via-90% to-[rgb(249,248,113)] to-100% p-8'>
         <div className='hero-content bg-[#ebebeb] h-[calc(100vh_-_4rem)] flex px-24 pt-20'>
-          <div className='hero-body-copy w-1/2'>
-            <h1 className='font-playfair text-bold text-[52px] pt-20'>Fuelled by coffee, code & creativity.</h1>
-            <p className='font-light text-lg pr-16 pt-8'>Hello, my name is Juste /YUS-teh/. I&#39;m a Web Developer based in London.</p>
+          <div className='hero-body-copy w-1/2 pr-12'>
+            <h1 className='font-playfair font-bold text-[52px] pt-16'>Fuelled by coffee, code & creativity.</h1>
+            <p className='font-poppins font-light text-lg pt-6'>Hello, my name is Juste /YUS-teh/. I&#39;m a Web Developer based in London.</p>
+            <p className='font-poppins font-medium text-lg py-6'>Want to know more?</p>
+            <div className='ctas flex'>
+              <button className='button-bg rounded-lg px-14 py-4 font-poppins font-bold uppercase text-xl'><a href='#'>Contact Me</a></button>
+              <button className='px-14 py-4 flex font-poppins text-xl items-center'>
+                <a href="/Projects" className='pr-4'>My Projects</a>
+                <img src={ arrow } alt="arrow right"></img>
+              </button>
+            </div>
+            <p className='uppercase font-bold text-5xl pt-6 ml-20'>or</p>
+            <p className='uppercase font-poppins font-bold text-2xl -rotate-90 text-right relative top-[38%] -left-[29%]'>start<br /> scrolling</p>
           </div>
           <div className='hero-image w-1/2 py-10 pl-10 -mr-16'>
             <svg className='max-h-[641px]' version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1121 1134">

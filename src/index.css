@@ -3,14 +3,14 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Playfair Display";
+  font-family: "Playfair-Display";
   src: local("Playfair-display"),
     url("./fonts/Playfair-display/PlayfairDisplay-Bold.ttf") format("truetype");
   font-weight: 700;
 }
 
 @font-face {
-  font-family: "Playfair Display";
+  font-family: "Playfair-Display";
   src: local("Playfair-display"),
     url("./fonts/Playfair-display/PlayfairDisplay-Regular.ttf") format("truetype");
   font-weight: 400;
@@ -42,4 +42,15 @@
   src: local("Poppins"),
     url("./fonts/Poppins/Poppins-Bold.ttf") format("truetype");
   font-weight: 600;
+}
+
+.button-bg {
+  background: conic-gradient(from 177.87deg at 50% 50%,
+      #f9f871 -3.75deg,
+      #fde6f9 58.58deg,
+      #ffdceb 108.75deg,
+      #ffd7c2 163.12deg,
+      #ffe290 213.75deg,
+      #f9f871 356.25deg,
+      #fde6f9 418.58deg);
 }
